@@ -1,4 +1,4 @@
-# @ignite-ui/react
+# @odonto-virtual/core
 
 ## 1.0.1
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@ignite-ui/react'
+import { Button, ButtonProps } from '@odonto-virtual/core'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
