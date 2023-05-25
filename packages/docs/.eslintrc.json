@@ -1,3 +1,6 @@
 {
-  "extends": "@odonto-virtual/eslint-config"
+  "extends": [
+    "@odonto-virtual/eslint-config",
+    "plugin:storybook/recommended"
+  ]
 }
