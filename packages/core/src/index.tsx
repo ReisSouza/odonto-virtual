@@ -9,5 +9,4 @@ export * from './components/MultiStep'
 
 export * from './styles'
 
-export { default as Button } from './components/Button/Button'
 export * from './components/Button/Button'

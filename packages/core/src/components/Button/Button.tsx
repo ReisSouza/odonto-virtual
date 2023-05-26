@@ -26,7 +26,7 @@ export type ButtonProps = VariantProps<typeof S.Button> & {
   css?: CSS
 }
 
-const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   children,
   iconLeft,
   iconRight,
@@ -57,7 +57,5 @@ const Button: React.FC<ButtonProps> = ({
     </S.Button>
   )
 }
-
-export default Button
 
 Button.displayName = 'Button'

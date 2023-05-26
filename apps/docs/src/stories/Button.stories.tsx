@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@odonto-virtual/core'
+import { ButtonProps, Button } from '@odonto-virtual/core'
 import { Plus, SignIn } from '@phosphor-icons/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
