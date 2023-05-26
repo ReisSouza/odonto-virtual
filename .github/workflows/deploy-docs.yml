@@ -27,9 +27,9 @@ jobs:
           TURBO_TEAM: reissouza
 
       - name: Deploy storybook
+        working-directory: ./apps/docs
         with:
           jekyll: false
-        working-directory: ./apps/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
