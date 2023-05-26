@@ -1,13 +1,14 @@
 {
+  "private": "true",
   "name": "@odonto-virtual/docs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "storybook dev -p 6006 ",
+    "dev": "start-storybook -p 6006 --docs",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "storybook build --docs"
+    "build": "build-storybook"
   },
   "keywords": [],
   "author": "",
