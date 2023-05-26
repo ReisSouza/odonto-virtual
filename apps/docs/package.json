@@ -34,6 +34,7 @@
     "@odonto-virtual/eslint-config": "*",
     "@odonto-virtual/tokens": "*",
     "@odonto-virtual/ts-config": "*",
+    "@phosphor-icons/react": "^2.0.9",
     "@storybook/addon-a11y": "^7.0.17",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

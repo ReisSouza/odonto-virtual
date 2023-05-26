@@ -1,4 +1,10 @@
 {
   "extends": "@odonto-virtual/ts-config/react.json",
-  "include": ["src"]
+  "include": ["src"],
+   "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["./src/*"],
+  },
+},
 }
