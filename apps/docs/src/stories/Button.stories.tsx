@@ -6,7 +6,7 @@ export default {
   title: 'Buttons/Button',
   component: Button,
   args: {
-    children: 'Enviar',
+    children: 'Clique aqui',
     size: 'medium',
     variant: 'contained',
     color: 'primary',
